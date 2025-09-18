@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        text-align: center;
+        background-color:  #85aae6;
+        color: black;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #042e70;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+ .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+
+    .nav-links a {
+      color: white;
+     text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: text-decoration 0.3s;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+    .form-box {
+             
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+    input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mark{
+    color: crimson;
+}
+
+.links{
+    display: flex;
+  margin-left:700px;
+  gap: 20px;
+}
+</style>
+</head>
+<body>
+
+     <header class="header">
+    <a href="#" class="logo">Student Portal</a>
+    <nav class="nav-links">
+        <a href="welcome.html">Home Page</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+      <a href="attendance.html">Attendance</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a href="result.html">Result</a>
+       <a href="fees.html">Fees</a>
+       <a href="courses.html">Courses</a>
+      <a href="aboutus.html">About Us</a>
+    </nav>
+  </header>
+
+    <h2>You have reached to Charusat's feedback center</h2>
+      <h3><i>Let us know and we are ready to help you out!!</i></h3>
+
+      <form>
+
+      <div class="form-box">
+     <div style="text-align: center">
+    <h2>Enter your crendentials</h2>
+    </div>
+    <div>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter your name" />
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email ID" />
+    </div>
+
+    <div> 
+        <label>Feedback:</label>
+        <input type="text" placehoder="enter your feedback" />
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</div>
+</form>
+<div class="mark">
+<h2><marquee>NOTE : For feedback you can use university's offical social media platform links that are given below</marquee></h2>
+</div>
+<div class=" links">
+    <a href="#" >Instagram </a> 
+     <a href="#" >Facebook</a>
+</div>
+</body>
+</html>

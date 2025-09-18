@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+     body  {
+            background-image: url("sp1.png");
+            background-repeat:repeat;
+            background-size: 300px 200px;
+
+            .form-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  max-width: 400px;
+  margin: 200px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:black;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+
+    .nav-links a {
+      color: white;
+     text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: text-decoration 0.3s;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+         
+  }
+
+</style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">Student Portal</a>
+    <nav class="nav-links">
+    <a href="welcome.html">Home Page</a>
+      <a href="register.html">Register</a>
+      <a href="attendance.html">Attendance</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a href="result.html">Result</a>
+       <a href="fees.html">Fees</a>
+       <a href="courses.html">Courses</a>
+        <a href="aboutus.html">About Us</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+  </header>
+
+   <form> 
+    <div class="form-box">
+    <div style="text-align: center;">
+        <h2>LOGIN HERE</h2>
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email"/>
+    </div>
+
+    <div>
+        <lable>Password:</lable>
+        <input type="password" placeholder="Enter your password"/>
+    </div>
+
+    <div>
+        <button type="sumbit">Submit</button>
+    </div>
+</div>
+   </form> 
+</body>
+
+</html>
